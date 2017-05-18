@@ -1,0 +1,16 @@
+{
+  "name": "adwyse",
+  "version": "1.0.0",
+  "description": "problems for internship interview",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "vritant",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1",
+    "should": "^11.2.1"
+  }
+}
