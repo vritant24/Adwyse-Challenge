@@ -4,7 +4,8 @@
   "description": "problems for internship interview",
   "main": "app.js",
   "scripts": {
-    "test": "mocha || true"
+    "test": "mocha || true",
+    "start": "node index.js"
   },
   "author": "vritant",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "chai": "^3.5.0",
     "mocha": "^3.4.1",
     "should": "^11.2.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
   }
 }
