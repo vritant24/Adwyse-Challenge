@@ -14,6 +14,6 @@ describe('Testing problem2: isNumber()', function() {
 
 describe('Testing problem3: isNumber()', function() {
     it('Should return true for number', function() {
-      assert.equal(true, true);
+      assert.equal(false, true);
     });
 });
