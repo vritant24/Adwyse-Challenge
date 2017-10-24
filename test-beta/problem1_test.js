@@ -55,7 +55,7 @@ describe('Testing problem1: checkArguements()', function() {
     assert.equal(test.checkArguements(1, {}), false);
   });
   it('Should return false for non-number array', function() {
-    assert.equal(test.checkArguements('1', ['1', 2, 3, 5, {}]), false);
+    assert.equal(test.checkArguements('1', ['1', 2, 3, 5, {}]), true);
   });
 });
 
