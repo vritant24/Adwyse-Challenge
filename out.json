@@ -1,0 +1,157 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 9,
+    "passes": 8,
+    "pending": 0,
+    "failures": 1,
+    "start": "2017-10-24T23:49:46.791Z",
+    "end": "2017-10-24T23:49:46.801Z",
+    "duration": 10
+  },
+  "tests": [
+    {
+      "title": "Should return true for number",
+      "fullTitle": "Testing problem1: isNumber() Should return true for number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return false for non-number",
+      "fullTitle": "Testing problem1: isNumber() Should return false for non-number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return true for valid arguements",
+      "fullTitle": "Testing problem1: checkArguements() Should return true for valid arguements",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return false for undefined arguement",
+      "fullTitle": "Testing problem1: checkArguements() Should return false for undefined arguement",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return false for incorrect arguement type",
+      "fullTitle": "Testing problem1: checkArguements() Should return false for incorrect arguement type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return false for non-number array",
+      "fullTitle": "Testing problem1: checkArguements() Should return false for non-number array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": false,
+        "actual": false,
+        "expected": true,
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test-beta/problem1_test.js:58:12)"
+      }
+    },
+    {
+      "title": "Should return a triplet for an array of positive numbers",
+      "fullTitle": "Testing problem1: findThreeElements() Should return a triplet for an array of positive numbers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return a triplet for an array of positive and negative numbers",
+      "fullTitle": "Testing problem1: findThreeElements() Should return a triplet for an array of positive and negative numbers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return a undefined if no triplets present",
+      "fullTitle": "Testing problem1: findThreeElements() Should return a undefined if no triplets present",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Should return false for non-number array",
+      "fullTitle": "Testing problem1: checkArguements() Should return false for non-number array",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": false,
+        "actual": false,
+        "expected": true,
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test-beta/problem1_test.js:58:12)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "Should return true for number",
+      "fullTitle": "Testing problem1: isNumber() Should return true for number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return false for non-number",
+      "fullTitle": "Testing problem1: isNumber() Should return false for non-number",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return true for valid arguements",
+      "fullTitle": "Testing problem1: checkArguements() Should return true for valid arguements",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return false for undefined arguement",
+      "fullTitle": "Testing problem1: checkArguements() Should return false for undefined arguement",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return false for incorrect arguement type",
+      "fullTitle": "Testing problem1: checkArguements() Should return false for incorrect arguement type",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return a triplet for an array of positive numbers",
+      "fullTitle": "Testing problem1: findThreeElements() Should return a triplet for an array of positive numbers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return a triplet for an array of positive and negative numbers",
+      "fullTitle": "Testing problem1: findThreeElements() Should return a triplet for an array of positive and negative numbers",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Should return a undefined if no triplets present",
+      "fullTitle": "Testing problem1: findThreeElements() Should return a undefined if no triplets present",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
